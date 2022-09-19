@@ -26,6 +26,7 @@ namespace GetAllSegments {
             }
             return Token;
         }
+        
         static async Task Main()
         {
             try	
