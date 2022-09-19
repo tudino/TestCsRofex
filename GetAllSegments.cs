@@ -1,11 +1,14 @@
-namespace GetAllSegments {
-    class Program {
+namespace GetAllSegments 
+{
+    class Program 
+    {
         private static string User = "YOUR_USER";
         private static string Password = "YOUR_PASSWORD";
-        private static string? Token;
+        private static string? Token = null;
         private static readonly HttpClient client = new HttpClient();
 
-        private static async Task<string> getToken() {
+        private static async Task<string> getToken() 
+        {
             client.BaseAddress = new Uri("https://api.remarkets.primary.com.ar");
             var request = new HttpRequestMessage(HttpMethod.Post, "/auth/getToken");
 
@@ -19,11 +22,20 @@ namespace GetAllSegments {
 
             var response = await client.SendAsync(request);
             string result = await response.Content.ReadAsStringAsync();
-            var values = response.Headers.GetValues("X-Auth-Token");
-            foreach (var value in values)
+            string status = response.StatusCode.ToString();
+
+            if(status == "Unauthorized")
             {
-                Token = value.ToString();
+                throw new HttpRequestException("Access denied\n");
             }
+            
+            if(status == "OK")
+            {
+                Console.WriteLine($"StatusCode: {status}");
+                var values = response.Headers.GetValues("X-Auth-Token");
+                Token = values.First().ToString();
+            }
+
             return Token;
         }
         
@@ -42,8 +54,7 @@ namespace GetAllSegments {
             }
             catch(HttpRequestException e)
             {
-                Console.WriteLine("\nException Caught!");	
-                Console.WriteLine("Message :{0} ",e.Message);
+                Console.WriteLine($"Error Message: {e.Message} ");
             }
         }
     }
