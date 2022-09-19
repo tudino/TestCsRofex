@@ -1,0 +1,15 @@
+P:\TestCsRofex\bin\Debug\net6.0\TestCsRofex.exe
+P:\TestCsRofex\bin\Debug\net6.0\TestCsRofex.deps.json
+P:\TestCsRofex\bin\Debug\net6.0\TestCsRofex.runtimeconfig.json
+P:\TestCsRofex\bin\Debug\net6.0\TestCsRofex.dll
+P:\TestCsRofex\bin\Debug\net6.0\TestCsRofex.pdb
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.csproj.AssemblyReference.cache
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.GeneratedMSBuildEditorConfig.editorconfig
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.AssemblyInfoInputs.cache
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.AssemblyInfo.cs
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.csproj.CoreCompileInputs.cache
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.dll
+P:\TestCsRofex\obj\Debug\net6.0\refint\TestCsRofex.dll
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.pdb
+P:\TestCsRofex\obj\Debug\net6.0\TestCsRofex.genruntimeconfig.cache
+P:\TestCsRofex\obj\Debug\net6.0\ref\TestCsRofex.dll

@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "P:\\TestCsRofex\\TestCsRofex.csproj": {}
+  },
+  "projects": {
+    "P:\\TestCsRofex\\TestCsRofex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\TestCsRofex\\TestCsRofex.csproj",
+        "projectName": "TestCsRofex",
+        "projectPath": "P:\\TestCsRofex\\TestCsRofex.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "P:\\TestCsRofex\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
